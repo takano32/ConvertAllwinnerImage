@@ -5,6 +5,5 @@ services:
       context: .
       dockerfile: ./Dockerfile
     volumes:
-      - ./src:/app/src
-      - ./dist:/app/dist
+      - ./img:/app/img
 
