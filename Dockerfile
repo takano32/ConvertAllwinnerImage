@@ -14,7 +14,7 @@ RUN tar xf OpenixCard-*-Linux.tar.gz --strip=2
 RUN rm OpenixCard-*-Linux.tar.gz
 
 COPY ./entrypoint.sh /
-RUN chmod 755 /entrypoint.sh
+RUN chmod +x /entrypoint.sh
 
 ENTRYPOINT ["/entrypoint.sh"]
 
