@@ -1,5 +1,5 @@
 #!/bin/bash
 set -eux
 
-sleep 600000
+cd img && echo *.img | xargs -n1 ../OpenixCard -d
 
